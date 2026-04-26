@@ -1,0 +1,15 @@
+{
+  "name": "grafica-mcr-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da Grafica MCR pronto para GitHub e Vercel.",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "build": "echo \"Static site - public directory ready\"",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}
